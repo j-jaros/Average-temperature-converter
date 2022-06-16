@@ -28,6 +28,9 @@ Insert temp in C: 20.22
 Insert temp in C: 12.34
 Insert temp in C: 4.20
 ```
+Warning! If you enter char or string, the program will enter an infinite loop.
+\
+\
 2. When you finish adding temperatures, just type 0.01
 ```
 Insert temp in C: 0.01
@@ -50,6 +53,7 @@ Romer: 13.8 °Ro
 ```
 Do you want to convert again? (y/n):
 ```
+Insert only y/Y or n/N. Other chars will cause infinite loop.
 ## Dislaimer
 It is not a scientific calculator.
 \
